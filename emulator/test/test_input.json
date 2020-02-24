@@ -1,0 +1,12 @@
+{
+    "startX" : 0,
+    "startY" : 0,
+    "etchWidth" : 5,
+    "etchHeight" : 5,
+    "pointerRadius": 0.005,
+    "commands" : [
+        {"type": "LINE", "lineEnd": {"x": 1, "y": 1}},
+        {"type": "LINE", "lineEnd": {"x": 0.75, "y": 0.5}},
+        {"type": "LINE", "lineEnd": {"x": 0.3, "y": 0.8}}
+    ]
+}

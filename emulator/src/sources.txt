@@ -1,0 +1,9 @@
+./emulator/src/EtchCommand.java
+./emulator/src/Emulator.java
+./emulator/src/PowderScreen.java
+./emulator/src/EtchASketchCanvas.java
+./emulator/src/Vector2i.java
+./emulator/src/Picture.java
+./emulator/src/EtchCommandFile.java
+./emulator/src/Vector2d.java
+./emulator/test/PolarPlotter.java
