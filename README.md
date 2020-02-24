@@ -35,3 +35,10 @@ serialization libraries (i.e. Java's `gson`, Python's `json` package, `JSON.pars
 
 A `.json` file enumerating a sequence of stepper motor commands. Each command must give a left knob angular velocity, a right knob 
 angular velocity, and a duration of the command in seconds. When fed to a machine that executes the commands in order on a real etch-a-sketch, the machine must produce on the etch-a-sketch a visually appealing rendition of the input image.
+
+## Emulator
+
+See `emulator` folder. Takes a simple `.json` input file with line segments and 
+converts it into an image fle of what it may look like on a real etch-a-sketch. Here's an example of what it outputs: 
+
+![image of etch-a-sketch output](https://i.imgur.com/ajmryX7.png)
