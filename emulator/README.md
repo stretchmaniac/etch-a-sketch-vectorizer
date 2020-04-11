@@ -1,4 +1,4 @@
-## Expected Dependencies 
+## Required Dependencies 
 1. Java 8+ jdk, package `openjdk-11-jdk` should be fine for Ubuntu.
 
 ## How To Run
@@ -12,7 +12,7 @@ with the names of all the `.java` files so that you can compile them all at once
 ## Expected Input
 A path to a single `.json` file is expected as a command line argument. This 
 file should have the following structure:
-```json
+```
 {
     "startX" : <starting cursor position x>,
     "startY" : <starting cursor position y>,
