@@ -36,4 +36,4 @@ The output file will have the following structure:
     "path": [{"x": <x0>, "y": <y0>}, {"x": <x1>, "y": <y1>}, ..., {"x": <xq>, "y": <yq>}]
 }
 ```
-This is a single path that includes every path specified in the input.
+This is a single path that traverses every path given in the input with minimal length connective line segments.

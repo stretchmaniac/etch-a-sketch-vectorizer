@@ -42,3 +42,7 @@ See `emulator` folder. Takes a simple `.json` input file with line segments and
 converts it into an image fle of what it may look like on a real etch-a-sketch. Here's an example of what it outputs: 
 
 ![image of etch-a-sketch output](https://i.imgur.com/ajmryX7.png)
+
+## Path Union Tool
+
+See `path_union` folder. A central constraint of an etch-a-sketch is its inability to pick up its head and move somewhere else without drawing. This tool converts an arbitrary set of paths on the plane to a single path by computing a minimum spanning tree of the input paths and traversing the resulting tree. The resulting path is drawable by an etch-a-sketch in that it is composed of a single connected path and minimizes any drawing that was not in the original paths.
